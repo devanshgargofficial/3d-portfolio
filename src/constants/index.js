@@ -56,13 +56,201 @@ export const clientReviews = [
   },
 ];
 
+// export const myProjects = [
+//   {
+//     title: 'Podcastr - AI Podcast Platform',
+//     desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+//     subdesc:
+//       'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+//     href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+//     texture: '/textures/project/project1.mp4',
+//     logo: '/assets/project-logo1.png',
+//     logoStyle: {
+//       backgroundColor: '#2A1816',
+//       border: '0.2px solid #36201D',
+//       boxShadow: '0px 0px 60px 0px #AA3C304D',
+//     },
+//     spotlight: '/assets/spotlight1.png',
+//     tags: [
+//       {
+//         id: 1,
+//         name: 'React.js',
+//         path: '/assets/react.svg',
+//       },
+//       {
+//         id: 2,
+//         name: 'TailwindCSS',
+//         path: 'assets/tailwindcss.png',
+//       },
+//       {
+//         id: 3,
+//         name: 'TypeScript',
+//         path: '/assets/typescript.png',
+//       },
+//       {
+//         id: 4,
+//         name: 'Framer Motion',
+//         path: '/assets/framer.png',
+//       },
+//     ],
+//   },
+//   {
+//     title: 'LiveDoc - Real-Time Google Docs Clone',
+//     desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+//     subdesc:
+//       'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+//     href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+//     texture: '/textures/project/project2.mp4',
+//     logo: '/assets/project-logo2.png',
+//     logoStyle: {
+//       backgroundColor: '#13202F',
+//       border: '0.2px solid #17293E',
+//       boxShadow: '0px 0px 60px 0px #2F6DB54D',
+//     },
+//     spotlight: '/assets/spotlight2.png',
+//     tags: [
+//       {
+//         id: 1,
+//         name: 'React.js',
+//         path: '/assets/react.svg',
+//       },
+//       {
+//         id: 2,
+//         name: 'TailwindCSS',
+//         path: 'assets/tailwindcss.png',
+//       },
+//       {
+//         id: 3,
+//         name: 'TypeScript',
+//         path: '/assets/typescript.png',
+//       },
+//       {
+//         id: 4,
+//         name: 'Framer Motion',
+//         path: '/assets/framer.png',
+//       },
+//     ],
+//   },
+//   {
+//     title: 'CarePulse - Health Management System',
+//     desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+//     subdesc:
+//       'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+//     href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+//     texture: '/textures/project/project3.mp4',
+//     logo: '/assets/project-logo3.png',
+//     logoStyle: {
+//       backgroundColor: '#60f5a1',
+//       background:
+//         'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+//       border: '0.2px solid rgba(208, 213, 221, 1)',
+//       boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+//     },
+//     spotlight: '/assets/spotlight3.png',
+//     tags: [
+//       {
+//         id: 1,
+//         name: 'React.js',
+//         path: '/assets/react.svg',
+//       },
+//       {
+//         id: 2,
+//         name: 'TailwindCSS',
+//         path: 'assets/tailwindcss.png',
+//       },
+//       {
+//         id: 3,
+//         name: 'TypeScript',
+//         path: '/assets/typescript.png',
+//       },
+//       {
+//         id: 4,
+//         name: 'Framer Motion',
+//         path: '/assets/framer.png',
+//       },
+//     ],
+//   },
+//   {
+//     title: 'Horizon - Online Banking Platform',
+//     desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+//     subdesc:
+//       'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+//     href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+//     texture: '/textures/project/project4.mp4',
+//     logo: '/assets/project-logo4.png',
+//     logoStyle: {
+//       backgroundColor: '#0E1F38',
+//       border: '0.2px solid #0E2D58',
+//       boxShadow: '0px 0px 60px 0px #2F67B64D',
+//     },
+//     spotlight: '/assets/spotlight4.png',
+//     tags: [
+//       {
+//         id: 1,
+//         name: 'React.js',
+//         path: '/assets/react.svg',
+//       },
+//       {
+//         id: 2,
+//         name: 'TailwindCSS',
+//         path: 'assets/tailwindcss.png',
+//       },
+//       {
+//         id: 3,
+//         name: 'TypeScript',
+//         path: '/assets/typescript.png',
+//       },
+//       {
+//         id: 4,
+//         name: 'Framer Motion',
+//         path: '/assets/framer.png',
+//       },
+//     ],
+//   },
+//   {
+//     title: 'Imaginify - AI Photo Manipulation App',
+//     desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+//     subdesc:
+//       'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+//     href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+//     texture: '/textures/project/project5.mp4',
+//     logo: '/assets/project-logo5.png',
+//     logoStyle: {
+//       backgroundColor: '#1C1A43',
+//       border: '0.2px solid #252262',
+//       boxShadow: '0px 0px 60px 0px #635BFF4D',
+//     },
+//     spotlight: '/assets/spotlight5.png',
+//     tags: [
+//       {
+//         id: 1,
+//         name: 'React.js',
+//         path: '/assets/react.svg',
+//       },
+//       {
+//         id: 2,
+//         name: 'TailwindCSS',
+//         path: 'assets/tailwindcss.png',
+//       },
+//       {
+//         id: 3,
+//         name: 'TypeScript',
+//         path: '/assets/typescript.png',
+//       },
+//       {
+//         id: 4,
+//         name: 'Framer Motion',
+//         path: '/assets/framer.png',
+//       },
+//     ],
+//   },
+// ];
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-    subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+    title: "GenArtSpace - AI-Driven Generative Art Platform",
+    desc: "A cutting-edge platform that leverages AI to generate unique and creative digital artwork. Users can explore, create, and share AI-generated art, pushing the boundaries of creativity with advanced algorithms.",
+    subdesc: "Built with a focus on AI-generated creativity, GenArtSpace utilizes machine learning models and cloud-based processing to create stunning, one-of-a-kind digital art pieces.",
+    href: 'mern-ai-image-generator-1.onrender.com',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -95,11 +283,10 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-    subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+    title: "PlacementGrid - Student Referral & Job Application Platform",
+    desc: "A platform designed to connect students with employees for job referrals. It enables students to request referrals from registered employees, streamlining the job search process through a structured and transparent system.",
+    subdesc: "Built using MongoDB, Express.js, React, and Node.js, PlacementGrid features a simple front-end with HTML, CSS, and JavaScript, along with a backend that stores and manages referral requests efficiently.",
+    href: 'placement-grid.onrender.com',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -132,11 +319,10 @@ export const myProjects = [
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-    subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+    title: "BlogSphere - AI-Powered Blogging Platform",
+    desc: "An interactive blogging platform that integrates AI to assist writers in content creation, offering recommendations, auto-generating summaries, and enhancing reader engagement with smart features.",
+    subdesc: "Leveraging MERN stack technologies along with AI-driven content generation tools, BlogSphere optimizes the blogging experience with intelligent text analysis and SEO suggestions.",
+    href: 'blogsphere.onrender.com',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -171,11 +357,10 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+    title: "EcoSort - Simulation-Based Smart Waste Management System",
+    desc: "A waste management system that uses simulation-based solutions to optimize waste collection and segregation, improving overall sustainability.", 
+    subdesc: "With a focus on efficiency, EcoSort is built using TypeScript and React, leveraging simulation-based techniques to model and improve waste sorting and collection processes.",
+    href: 'ecosort.onrender.com',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -207,45 +392,44 @@ export const myProjects = [
       },
     ],
   },
-  {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
+  // {
+  //   title: 'Imaginify - AI Photo Manipulation App',
+  //   desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+  //   subdesc:
+  //     'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+  //   href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+  //   texture: '/textures/project/project5.mp4',
+  //   logo: '/assets/project-logo5.png',
+  //   logoStyle: {
+  //     backgroundColor: '#1C1A43',
+  //     border: '0.2px solid #252262',
+  //     boxShadow: '0px 0px 60px 0px #635BFF4D',
+  //   },
+  //   spotlight: '/assets/spotlight5.png',
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: 'React.js',
+  //       path: '/assets/react.svg',
+  //     },
+  //     {
+  //       id: 2,
+  //       name: 'TailwindCSS',
+  //       path: 'assets/tailwindcss.png',
+  //     },
+  //     {
+  //       id: 3,
+  //       name: 'TypeScript',
+  //       path: '/assets/typescript.png',
+  //     },
+  //     {
+  //       id: 4,
+  //       name: 'Framer Motion',
+  //       path: '/assets/framer.png',
+  //     },
+  //   ],
+  // },
 ];
-
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
     deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
@@ -260,29 +444,45 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+    name: 'Fluwid Technologies LLP',
+    pos: 'Software Developement Engineer Intern',
+    duration: 'June, 2024 - Dec, 2024',
+    title: `As an intern, \n
+    Developed and deployed full-stack web applications, improving system efficiency by 30% and reducing
+    load times by 40%.
+    • Designed and optimized RESTful APIs, enhancing data retrieval speeds by 25%.
+    • Implemented authentication & authorization using JWT and OAuth, reducing unauthorized access by 95%
+    • Built an interactive admin dashboard, improving business insights & analytics by 50%.
+    • Optimized database queries, reducing API response times from 2s to 500ms.
+    • Tech Stack: MERN (MongoDB, Express.js, ReactJS, Node.js), JavaScript, Python, SQL, MySQL`,
     icon: '/assets/framer.svg',
     animation: 'victory',
   },
-  {
-    id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
-    animation: 'clapping',
-  },
-  {
-    id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
-    animation: 'salute',
-  },
+  // {
+  //   id: 1,
+  //   name: 'Framer',
+  //   pos: 'Lead Web Developer',
+  //   duration: '2022 - Present',
+  //   title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+  //   icon: '/assets/framer.svg',
+  //   animation: 'victory',
+  // },
+  // {
+  //   id: 2,
+  //   name: 'Figma',
+  //   pos: 'Web Developer',
+  //   duration: '2020 - 2022',
+  //   title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+  //   icon: '/assets/figma.svg',
+  //   animation: 'clapping',
+  // },
+  // {
+  //   id: 3,
+  //   name: 'Notion',
+  //   pos: 'Junior Web Developer',
+  //   duration: '2019 - 2020',
+  //   title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+  //   icon: '/assets/notion.svg',
+  //   animation: 'salute',
+  // },
 ];
